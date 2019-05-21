@@ -1,10 +1,11 @@
- 2、将 <passwordHash>节点中黑色标出的那段内容换成：
+ 1。找到config.xml
+ 
+ 2。将 <passwordHash>节点中黑色标出的那段内容换成以下加密值：
 
-             #jbcrypt:$2a$10$DdaWzN64JgUtLdvxWIflcuQu2fgrrMSAMabF5TSrGK5nXitqK9ZMS
+  #jbcrypt:$2a$10$DdaWzN64JgUtLdvxWIflcuQu2fgrrMSAMabF5TSrGK5nXitqK9ZMS
 
-        3、保存，重启jenkins
-
-        4、输入用户名，新的密码：111111就可以正常登陆
+3。保存，重启jenkins
+4。输入用户名，新的密码：111111就可以正常登陆
 
 参考链接
 https://blog.csdn.net/caoyingqun/article/details/82224240?utm_source=blogxgwz2
